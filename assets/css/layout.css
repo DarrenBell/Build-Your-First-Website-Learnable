@@ -21,9 +21,6 @@ layout
 	color: #fff;
 	background: #282e37;
 }
-.row--banner {
-	background: #aaa;
-}
 /* row-padding */
 .row--padding-medium {
 	padding-top: 2.1875em;
@@ -45,32 +42,14 @@ layout
 }
 .container-narrow {
 	max-width: 34em;
-	background: yellow;
 }
 .container-medium {
 	max-width: 52em;
-	background: green;
 }
 .container-wide {
 	max-width: 58em;
-	background: lime;
 }
 /* columns */
-.col-narrow {
-	background: pink;
-}
-.col-narrow--right {
-	background: pink;
-}
-.col-medium {
-	background: silver;
-}
-.col-wide {
-	background: aqua;
-}
-.col-wide--right {
-	background: aqua;
-}
 .col-narrow, .colnarrow--right {
 	margin-bottom: 1.5em;
 }
