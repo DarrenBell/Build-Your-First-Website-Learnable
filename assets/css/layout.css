@@ -56,26 +56,65 @@ layout
 	background: lime;
 }
 /* columns */
-
+.col-narrow {
+	background: pink;
+}
+.col-narrow--right {
+	background: pink;
+}
+.col-medium {
+	background: silver;
+}
+.col-wide {
+	background: aqua;
+}
+.col-wide--right {
+	background: aqua;
+}
+.col-narrow, .colnarrow--right {
+	margin-bottom: 1.5em;
+}
 /* ----------------------------
 wide
 ---------------------------- */
 @media (min-width: 38em) {
 	.row--padding-medium {
-	padding-top: 3.8889em;
-	padding-bottom: 3.8889em;
+		padding-top: 3.8889em;
+		padding-bottom: 3.8889em;
 	/* 70px/16px */
 	}
 	.row--padding-wide {
-	padding-top: 5.5556em;
-	padding-bottom: 5.5556em;
+		padding-top: 5.5556em;
+		padding-bottom: 5.5556em;
 	/* 100px/16px */
 	}
 
 	.container-narrow, 
 	.container-medium,
 	.container-wide {
-	padding-left: 2em;
-	padding-right: 2em;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.col-narrow,
+	.col-medium,
+	.col-wide {
+		float: left;
+	}
+	.col-narrow--right,
+	.col-wide--right {
+		float: right;
+	}
+	.col-wide,
+	.col-wide--right {
+		width: 61%;
+	}
+	.col-medium {
+		width: 50%;
+	}
+	.col-narrow,
+	.col-narrow--right {
+		width: 25%;
+		margin-bottom: 0;
 	}
 }
