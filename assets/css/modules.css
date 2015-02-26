@@ -1,7 +1,20 @@
 /* ----------------------------
 banner
 ---------------------------- */
+.row--banner {
+	background-color: #626e6d;
+	background-image: url(../img/banner-small.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; /*Allows us to cover whole element with background image */
+}
 
+@media (min-width: 38em)
+{
+ 	.row--banner {
+		background-image: url(../img/banner.jpg);
+	}
+}
 /* ----------------------------
 header
 ---------------------------- */
